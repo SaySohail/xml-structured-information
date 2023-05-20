@@ -2,7 +2,7 @@
 
 
 
-<h3 align="center"> XML and Structured Information </h3>
+<h3 align="center"></h3> XML and Structured Information </h3>
 
 <div align="center">
 
@@ -19,7 +19,7 @@ This report provides a comprehensive analysis of the implementation of four sepa
 ### Part A: extract.xquery
 The extract.xquery file included a FLWOR (For, Let, Where, Order by, Return) expression designed to return all instances of the word 'has' found in the corpus, alongside the word that immediately followed in each instance.
 
-This task involved careful navigation of the XML files, where <s> represents a sentence and <w> represents a word. The XPath functions normalize-space() and lower-case() proved to be essential for handling variations in case and whitespace within the <w> element text values.
+This task involved careful navigation of the XML files, where "<s></s>" represents a sentence and "<w>" represents a word. The XPath functions normalize-space() and lower-case() proved to be essential for handling variations in case and whitespace within the "<w>" element text values.
 
 ### Part B: freqs.xquery
 Building upon the functionality of the first file, freqs.xquery aimed to return only unique instances of the word 'has' and its successor word, accompanied by the frequency of their co-occurrence.
